@@ -1,0 +1,5 @@
+A property to save the state of a data table after refresh like sort position, page number. 
+Use this when there is an update and we have to refresh the table with the new data.
+
+$('#tableID').DataTable({stateSave: true});
+https://datatables.net/examples/basic_init/state_save.html
