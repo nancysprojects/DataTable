@@ -1,0 +1,7 @@
+Started using 
+html.push("<td><input type='button' class='checkbox' value='Update' onclick=MaintUpd('" + value.b_num + "','" + value.p_code +"')></input></td>");
+inside MaintUpd there is $("#btn_select").click(); to trigger  ASP.NET server code. It was executing just fine.
+With the purpose of decorating the button using  icons, changed it to 
+html.push("<td><button type='submit' class='btn btn-success' onclick=MaintUpd('" + value.b_num + "','" + value.p_code + "');><i class='fa fa-pencil' aria-hidden='true'></i></button></td>");
+
+button is effectively useless, more trouble than it's worth, yikes. $("#btn_select").click(); nolonger triggers the  ASP.NET server code.
