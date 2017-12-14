@@ -5,3 +5,8 @@ With the purpose of decorating the button using  icons, changed it to
 html.push("<td><button type='submit' class='btn btn-success' onclick=MaintUpd('" + value.b_num + "','" + value.p_code + "');><i class='fa fa-pencil' aria-hidden='true'></i></button></td>");
 
 button is effectively useless, more trouble than it's worth, yikes. $("#btn_select").click(); nolonger triggers the  ASP.NET server code.
+
+To fix this ended up using 
+html.push("<td><label for='mysubmit' class='btn btn-success' onclick=MaintUpd('" + value.budg_numb + "','" + value.posi_code + "')><i class='fa fa-pencil' aria-hidden='true'> Edit </i></label></td>");
+class='fa fa-pencil' comes from  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+
