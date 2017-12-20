@@ -1,0 +1,11 @@
+function getData(){
+var jsonData = JSON.stringify({});
+$.ajax({
+  type:"POST",
+  url:""/Services/xxxxx.asmx/yyyyyy",
+  data:jsonData,
+  contentType:"application/json;charset=utf-8",
+  dataType:"json",
+  success: onsuccessdata,
+  error: onerrordata
+}
