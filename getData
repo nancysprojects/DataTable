@@ -14,6 +14,6 @@ function onsuccessdata(response){
   var html = new Array();
   html.push("<table id='tablename' class='display table table-stiped'>");
   html.push("<thead>");
-  html.push("<tr>");
+  html.push("</thead>");
   
 }
