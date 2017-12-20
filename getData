@@ -15,5 +15,8 @@ function onsuccessdata(response){
   html.push("<table id='tablename' class='display table table-stiped'>");
   html.push("<thead>");
   html.push("</thead>");
+  html.push("<tbody>");
+  html.push("</tbody>");
+  html.push("</table>");
   
 }
